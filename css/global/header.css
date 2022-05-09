@@ -1,9 +1,9 @@
-.header-bg{
+.header-bg {
   height: 100vh;
-  background: black url(../../img/home-bg-2.jpg) center center no-repeat fixed;
+  background: black url(../../img/home-bg.jpg) center top no-repeat fixed;
   background-size: cover;
 }
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,18 +12,17 @@
   position: relative;
 }
 
-.header-menu{
+.header-menu {
   display: flex;
   gap: 10px;
 }
 
-.header-img{
+.header-img {
   position: absolute;
-  max-height: 100vh;
   top: 0px;
   z-index: -1;
 }
 
-main{
+main {
   margin-bottom: 2000px;
 }
