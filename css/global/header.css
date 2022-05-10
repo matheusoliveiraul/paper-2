@@ -1,6 +1,6 @@
 .header-bg {
   height: 100vh;
-  background: black url(../../img/home-bg.jpg) center top no-repeat fixed;
+  background: black url(../../img/home-bg4.jpg) center top no-repeat fixed;
   background-size: cover;
 }
 .header {
@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   padding: 40px 0px;
   position: relative;
+  color: white;
 }
 
 .header-menu {
