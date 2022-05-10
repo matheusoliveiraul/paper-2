@@ -1,29 +1,32 @@
-.header-bg {
-  height: 100vh;
-  background: black url(../../img/home-bg4.jpg) center top no-repeat fixed;
-  background-size: cover;
+.header-bg{
+  background-color: #000000;
 }
+
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 40px 0px;
-  position: relative;
+  gap: 20px;
+  padding: 20px;
   color: white;
+}
+
+
+.header-logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .header-menu {
   display: flex;
-  gap: 10px;
+  gap: 40px;
 }
 
-.header-img {
-  position: absolute;
-  top: 0px;
-  z-index: -1;
-}
-
-main {
-  margin-bottom: 2000px;
+.header-menu li a{
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
