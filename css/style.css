@@ -8,3 +8,6 @@
 
 @import "./global/header.css";
 @import "./global/footer.css";
+
+/* introducao */
+@import "./home/introducao.css";

@@ -1,0 +1,43 @@
+.header-bg {
+  margin-top: 30px;
+}
+
+.header {
+  background: var(--cor-1);
+  padding-right: 0px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+}
+
+.header-logo-home {
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-home .logo {
+  display: block;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.8;
+  text-transform: uppercase;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.header-logo-home .home {
+  display: block;
+  font-size: 16px;
+  line-height: 42px;
+  letter-spacing: 0;
+}
+
+.header-redes {
+  display: flex;
+  align-items: center;
+  background: var(--cor-a4);
+  display: flex;
+  gap: 20px;
+  padding: 0px 40px;
+}

@@ -1,0 +1,15 @@
+.introducao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.introducao h1{
+  font-family: "Inknut Antiqua", serif;
+  font-size: 120px;
+  line-height: 120px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
