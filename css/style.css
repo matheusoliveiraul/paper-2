@@ -9,5 +9,6 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 
-/* introducao */
+/* Home */
 @import "./home/introducao.css";
+@import "./home/historia.css";

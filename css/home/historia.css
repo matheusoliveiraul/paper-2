@@ -1,0 +1,29 @@
+.historia-bg{
+  background: url(../../img/historia-bg.jpg) center center no-repeat fixed;
+  background-size: cover;
+  height: 900px;
+}
+
+.historia{
+  background: var(--cor-a6);
+  color: var(--cor-1);
+  position: relative;
+  top: -110px;
+}
+
+.historia h2{
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.historia p{
+  font-family: 'Inter', sans-serif;
+  font-size: 23px;
+  line-height: 36.8px;
+  font-weight: 300;
+  text-align: center;
+}

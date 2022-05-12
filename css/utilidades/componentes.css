@@ -16,11 +16,22 @@
   margin-right: auto;
 }
 
+.container-3 {
+  box-sizing: border-box;
+  max-width: 720px;
+  height: 560px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .botao {
   display: inline-block;
   border: 1px solid #000000;
   border-radius: 4px;
-  padding: 8px 48px;
+  padding: 12px 64px;
   cursor: pointer;
   max-width: max-content;
 }
