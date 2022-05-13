@@ -1,5 +1,9 @@
-.oferecemos h2{
+.oferecemos{
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.oferecemos h2{
   margin-bottom: 100px;
   text-align: center;
   font-family: 'Inknut Antiqua', serif;
@@ -25,8 +29,6 @@
   font-size: 40px;
   font-weight: 300;
   line-height: 56px;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .oferecemos-item p{
@@ -36,4 +38,6 @@
   font-size: 16px;
   line-height: 25.6px;
   font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
