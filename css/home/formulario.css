@@ -2,3 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.formulario-dados{
+  padding-top: 100px;
+}
+
+.formulario-dados .nome{
+
+}
