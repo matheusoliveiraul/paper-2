@@ -1,0 +1,11 @@
+.footer{
+  background: var(--cor-a3);
+  padding: 10px;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 25.6px;
+  font-family: 'Inter', sans-serif;
+}
