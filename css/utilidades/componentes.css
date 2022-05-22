@@ -27,6 +27,17 @@
   margin-right: 0;
 }
 
+.container-4 {
+  box-sizing: border-box;
+  max-width: 500px;
+  height: 300px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
 .botao {
   display: inline-block;
   border: 1px solid #000000;
@@ -34,9 +45,15 @@
   padding: 12px 64px;
   cursor: pointer;
   max-width: max-content;
+  max-height: max-content;
 }
 
 .botao.secundario {
-  background: #000000;
-  color: #ffffff;
+  background: transparent;
+}
+
+@media (max-width: 600px) {
+  .botao {
+    padding: 8px 32px;
+  }
 }

@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.introducao h1{
+.introducao h1 {
   font-family: "Inknut Antiqua", serif;
   font-weight: 300;
   font-size: 120px;
@@ -16,11 +16,32 @@
   margin-bottom: 40px;
 }
 
-.introducao p{
-  font-family: 'Inter', sans-serif;
+.introducao p {
+  font-family: "Inter", sans-serif;
   font-size: 23px;
   font-weight: 300;
   line-height: 34.5px;
   text-align: center;
   margin-bottom: 25px;
+}
+
+@media (max-width: 850px){
+  .introducao h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 40px;
+  }
+  .introducao p {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
 }

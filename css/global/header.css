@@ -43,3 +43,9 @@
   gap: 20px;
   padding: 0px 40px;
 }
+
+@media (max-width: 500px){
+  .header-redes{
+    display: none;
+  }
+}
