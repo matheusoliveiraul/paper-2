@@ -1,29 +1,23 @@
-.formulario{
+.formulario {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.formulario-info-bg{
+.formulario-info-bg {
   background: url(../../img/formulario-bg.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 
-.formulario-info{
+.formulario-info {
   background: var(--cor-a6);
   color: var(--cor-1);
   position: relative;
   top: -150px;
-  right: -150px;
+  right: -10%;
 }
 
-@media (max-width: 1000px){
-  .formulario-info{
-  right: 0px;
-  }
-}
-
-.formulario-info h2{
-  font-family: 'Inknut Antiqua', serif;
+.formulario-info h2 {
+  font-family: "Inknut Antiqua", serif;
   font-weight: 300;
   font-size: 40px;
   line-height: 56px;
@@ -31,8 +25,8 @@
   margin-bottom: 64px;
 }
 
-.formulario-info p{
-  font-family: 'Inter', sans-serif;
+.formulario-info p {
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 22.5px;
   font-weight: 300;
@@ -75,7 +69,7 @@
   box-sizing: border-box;
 }
 
-.botao-formulario{
+.botao-formulario {
   grid-column: span 2;
   line-height: 0px;
   padding: 0px 32px;
@@ -85,4 +79,34 @@
   border-radius: 4px;
   cursor: pointer;
   background: transparent;
+}
+
+@media (max-width: 1000px) {
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+  .formulario-info-bg {
+    height: 60vh;
+  }
+  .formulario-info {
+    right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nome,
+  .sobrenome {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .formulario-dados{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nome,
+  .sobrenome {
+    grid-column: span 2;
+  }
 }
