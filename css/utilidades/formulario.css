@@ -1,0 +1,37 @@
+.formulario-info{
+  background: blue;
+}
+
+.formulario-dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 120px 120px ;
+}
+
+.formulario-dados label {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  margin-bottom: 4px;
+}
+
+.formulario-dados .col-2 {
+  grid-column: span 2;
+}
+
+.formulario-dados input[type="text"],
+.formulario-dados input[type="email"],
+.formulario-dados textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  background: transparent;
+  border: 1px solid var(--cor-2);
+  border-bottom: 1px solid #000000;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
