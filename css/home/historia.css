@@ -5,7 +5,7 @@
 }
 
 .historia{
-  background: var(--cor-a6);
+  background: var( --cor-paleta3);
   color: var(--cor-1);
   position: relative;
   top: -110px;

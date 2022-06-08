@@ -12,7 +12,7 @@
   --cor-10: #2e2e2e;
   --cor-11: #111111;
   --cor-12: #000000;
-  
+
   --cor-p1: #ffbb00;
   --cor-p2: #e5a30b;
   --cor-p3: #a66f00;
@@ -25,6 +25,14 @@
   --cor-a4: #72b1f5; /*Malibu*/
   --cor-a5: #106dff; /*Blue Riboon*/
   --cor-a6: #004739; /*Aqua Deep*/
+
+  /* Paleta https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
+  --cor-paleta1: #f1faee;
+  --cor-paleta2: #a8dadc;
+  --cor-paleta3: #457b9d;
+  --cor-paleta4: #1d3557;
+  --cor-paleta5: rgb(9, 22, 41);
+  --cor-paleta6: #e63946;
 }
 
 .cor-0 {
@@ -81,21 +89,21 @@
 .cor-p5 {
   color: var(--cor-p5);
 }
-.cor-a1{
+.cor-a1 {
   color: var(--cor-a1);
 }
-.cor-a2{
+.cor-a2 {
   color: var(--cor-a2);
 }
-.cor-a3{
+.cor-a3 {
   color: var(--cor-a3);
 }
-.cor-a4{
+.cor-a4 {
   color: var(--cor-a4);
 }
-.cor-a5{
+.cor-a5 {
   color: var(--cor-a5);
 }
-.cor-a6{
+.cor-a6 {
   color: var(--cor-a6);
 }

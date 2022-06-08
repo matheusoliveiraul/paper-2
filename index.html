@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header class="header-bg">
+  <header class="header-bg fadeInDown" data-anime="200">
     <div class="header container">
       <div class="header-logo-home">
         <a href="./" class="logo">UniControl</a>
@@ -30,11 +30,11 @@
 
   <main class="introducao-bg">
     <div class="introducao container">
-      <h1>Eleve<br>Sua Marca</h1>
-      <p>
+      <h1 data-anime="200" class="fadeInRight">Eleve<br>Sua Marca</h1>
+      <p data-anime="400" class="fadeInLeft">
         Conheca o nosso novo aplicativo,<br>pronto para a sua empresa.
       </p>
-      <a href="#form" class="botao">inscrever-se</a>
+      <a href="#form" class="botao fadeInUp" data-anime="1200">inscreva-se</a>
     </div>
   </main>
   <section class="historia-bg">
@@ -89,16 +89,14 @@
     <div class="formulario">
       <div class="formulario-info-bg">
         <div class="formulario-info container-4">
-          <h2>Se inscreva</h2>
+          <h2 id="form">Se inscreva</h2>
           <p>
             Para receber as melhores noticias sobre o nosso aplicativo
           </p>
         </div>
       </div>
 
-      <!-- VERIFICAR O FORMULARIO ABAIXO, FOI REALIZADO A CORRECAO DO MESMO, MAS NAO FOI REALIZADO TESTES. -->
-
-      <form class="formulario-dados" id="form" action="./">
+      <form class="formulario-dados" action="./">
         <div class="nome">
           <label for="nome">Primeiro Nome</label>
           <input type="text" id="nome" name="nome">
@@ -127,6 +125,8 @@
       © 2022 by Grupo Paper 4
     </p>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

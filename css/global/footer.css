@@ -1,6 +1,7 @@
 .footer{
-  background: var(--cor-a3);
+  background: var(--cor-paleta5);
   padding: 10px;
+  color: var(--cor-paleta2);
 }
 
 .footer p{

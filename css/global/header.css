@@ -3,11 +3,11 @@
 }
 
 .header {
-  background: var(--cor-1);
+  background: var(--cor-0);
   padding-right: 0px;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 30px;
+  gap: 20px;
 }
 
 .header-logo-home {
@@ -19,10 +19,11 @@
 
 .header-logo-home .logo {
   display: block;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 21px;
+  font-weight: 400;
   letter-spacing: 0.8;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Inknut Antiqua", serif;
 }
 
@@ -38,10 +39,27 @@
 .header-redes {
   display: flex;
   align-items: center;
-  background: var(--cor-a4);
+  /* background: var(--cor-paleta3); */
   display: flex;
   gap: 20px;
   padding: 0px 40px;
+  position: relative;
+}
+
+.header-redes a::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  margin-top: 4px;
+  background-color: var(--cor-paleta4);
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-redes a:hover::after,
+.header-redes a.ativo::after {
+  width: 15px; /*sobrinhado completo de fora a fora*/
 }
 
 @media (max-width: 500px){
