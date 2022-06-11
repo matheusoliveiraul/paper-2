@@ -19,11 +19,10 @@ $conn = mysqli_connect($nomeServidor, $usuario, $senha, $database);
 if (!$conn) {
   die("Falha na conexão: " . mysqli_connect_error());
 } else {
-  echo "A conexão foi um Sucesso";
+  echo "Inscrição realizada com sucesso";
 }
 
 //INSERINDO NO BANCO DE DADOS
-//Houve um erro quando a mensagem tinha aspas '', verificar isso
 
 $inserirDados = "INSERT INTO usuarios (nome, sobrenome, email, mensagem) VALUES ('$nome','$sobrenome','$email','$mensagem')";
 $resultadoUsuario = mysqli_query($conn, $inserirDados);
