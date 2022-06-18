@@ -6,7 +6,6 @@ $sobrenome = $_POST['sobrenome'];
 $email = $_POST['email'];
 $mensagem = $_POST['mensagem'];
 
-
 //Conectando ao servidor
 $nomeServidor = "localhost";
 $database = "registro";
@@ -24,7 +23,6 @@ if (!$conn) {
 }
 
 //INSERINDO NO BANCO DE DADOS
-
 $inserirDados = "INSERT INTO usuarios (nome, sobrenome, email, mensagem) VALUES ('$nome','$sobrenome','$email','$mensagem')";
 $resultadoUsuario = mysqli_query($conn, $inserirDados);
 
