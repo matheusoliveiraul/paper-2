@@ -12,6 +12,7 @@ $nomeServidor = "localhost";
 $database = "registro";
 $usuario = "root";
 $senha = "";
+
 // criando conexao
 $conn = mysqli_connect($nomeServidor, $usuario, $senha, $database);
 
@@ -26,3 +27,5 @@ if (!$conn) {
 
 $inserirDados = "INSERT INTO usuarios (nome, sobrenome, email, mensagem) VALUES ('$nome','$sobrenome','$email','$mensagem')";
 $resultadoUsuario = mysqli_query($conn, $inserirDados);
+
+

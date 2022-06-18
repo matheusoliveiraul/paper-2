@@ -22,3 +22,4 @@ window.SimpleAnime = class {
       document.addEventListener("visibilitychange", this.handleVisibility);
   }
 };
+
